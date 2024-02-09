@@ -1,5 +1,5 @@
 {{ config(
-    materialized='table'
+    materialized='table',
     indexes=[
         {'columns': ['sys_id'], 'type': 'btree', 'unique': True},
     ]
