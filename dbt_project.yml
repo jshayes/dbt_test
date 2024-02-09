@@ -5,7 +5,7 @@ version: 1.0.0
 
 models:
   tickets2:
-    materialized: table
+    +materialized: table
     +indexes:
       - columns: ["sys_id"]
         type: btree
