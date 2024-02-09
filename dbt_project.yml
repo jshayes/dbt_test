@@ -1,7 +1,6 @@
 name: indexes
 
 config-version: 2
-version: 1
 
 models:
   ticket:
