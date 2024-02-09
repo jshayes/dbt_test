@@ -4,9 +4,8 @@ config-version: 2
 version: 1.0.0
 
 models:
-  ticket:
-    subdirectory:
-      +indexes:
-        - columns: ["sys_id"]
-          type: btree
-          unique: true
+  tickets:
+    +indexes:
+      - columns: ["sys_id"]
+        type: btree
+        unique: true
