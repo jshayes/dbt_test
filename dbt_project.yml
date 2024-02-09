@@ -4,9 +4,4 @@ config-version: 2
 version: 1.0.0
 
 models:
-  tickets2:
-    +materialized: table
-    +indexes:
-      - columns: ["sys_id"]
-        type: btree
-        unique: true
+  tickets:
