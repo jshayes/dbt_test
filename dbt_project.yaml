@@ -1,0 +1,12 @@
+name: add-indexes
+
+config-version: 2
+version: 1
+
+models:
+  ticket:
+    subdirectory:
+      +indexes:
+        - columns: ["sys_id"]
+          type: btree
+          unique: true
